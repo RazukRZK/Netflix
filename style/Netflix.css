@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Estilizando o header */
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    width: 200px;
+    height: 75px;
+}
+
+.imagem{
+    width: 100%;
+    height: 100%;
+}
+
+#logoNavegacao{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 3px;
+}
+
+#login{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+#usuario{
+    width: 70px;
+    height: 70px;
+}
+
+/* Estilizando o main */
+
+#banner{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 0)), url(../arquivosAuxiliares/images/b9d9a6cb0cf523f131b6b153a675ab5956dd63f7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#conteudo{
+    width: 40%;
+    height: 100%;
+    padding: 0px 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#conteudo p:first-child{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#conteudo p:nth-child(3){
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#conteudo h1{
+    font-size: 75px;
+}
+
+#botao input{
+    padding: 10px;
+    color: white;
+    background-color: #1b1b1d;
+    border-radius: 5px;
+    border: none;
+}
+
+.topicos{
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+}
+
+.topicos h5{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.filmes{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filmes img{
+    width: 24%;
+}
+
+#bannerBaixo{
+    width: 100%;
+    height: 70vh;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 0)), url(../arquivosAuxiliares/images/246e4c20e2539af37de4a14a3f6cbd45d829cc99.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#categorias{
+    color: white;
+    background-color: black;
+    padding: 15px 30px;
+}
+
+#estilos{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#estilos a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 14%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#estilos a:first-child{
+    background-color: #D06AFE;
+}
+
+#estilos a:nth-child(2){
+    background-color: #7052FF;
+}
+
+#estilos a:nth-child(3){
+    background-color: #FFFF51;
+}
+
+#estilos a:nth-child(4){
+    background-color: #68DA3D;
+}
+
+#estilos a:nth-child(5){
+    background-color: #FF7361;
+}
+
+#estilos a:nth-child(6){
+    background-color: #FF81FF;
+}
+
+#estilos a:last-child{
+    background-color: #7052FF;
+}
+
+footer{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #1b1b1d;
+    color: gray;
+}
+
